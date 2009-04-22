@@ -26,6 +26,13 @@ generate('roles', 'Role User')
 # Run rspec generator
 generate("rspec")
 
+# blueprint/css
+run "curl -L http://github.com/joshuaclayton/blueprint-css/tarball/master > public/stylesheets/blueprint.tar && tar xf public/stylesheets/blueprint.tar"
+run 'rm public/stylesheets/blueprint.tar'
+blueprint_dir = Dir.entries('.').grep(/blueprint/).first
+run "mv #{blueprint_dir}/blueprint/*.css public/stylesheets"
+run "rm -rf #{blueprint_dir}"
+
 # Run Ryanb's Nifty Layout generator
 generate("nifty_layout")
 
