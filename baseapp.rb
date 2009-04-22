@@ -1,14 +1,14 @@
 plugin 'exception_notifier', :git => 'http://github.com/rails/exception_notification.git'
-plugin 'rspec', :git => 'git://github.com/dchelimsky/rspec.git'
-plugin 'rspec-rails', :git => 'git://github.com/dchelimsky/rspec-rails.git'
-plugin 'paperclip', :git => 'git://github.com/thoughtbot/paperclip.git'
-plugin 'restful-authentication', :git => 'git://github.com/technoweenie/restful-authentication.git'
+plugin 'rspec', :git => 'http://github.com/dchelimsky/rspec.git'
+plugin 'rspec-rails', :git => 'http://github.com/dchelimsky/rspec-rails.git'
+plugin 'paperclip', :git => 'http://github.com/thoughtbot/paperclip.git'
+plugin 'restful-authentication', :git => 'http://github.com/technoweenie/restful-authentication.git'
 plugin 'asset_packager', :git => 'http://synthesis.sbecker.net/pages/asset_packager'
-plugin 'role_requirement', :git => 'git://github.com/timcharper/role_requirement.git'
-plugin 'haml', :git => "git://github.com/nex3/haml.git"
-plugin 'activemerchant', :git => 'git://github.com/Shopify/active_merchant.git'
-plugin 'cucumber', :git => "git://github.com/aslakhellesoy/cucumber.git"
-plugin 'will_paginate', :git => 'git://github.com/mislav/will_paginate.git'
+plugin 'role_requirement', :git => 'http://github.com/timcharper/role_requirement.git'
+plugin 'haml', :git => "http://github.com/nex3/haml.git"
+plugin 'activemerchant', :git => 'http://github.com/Shopify/active_merchant.git'
+plugin 'cucumber', :git => "http://github.com/aslakhellesoy/cucumber.git"
+plugin 'will_paginate', :git => 'http://github.com/mislav/will_paginate.git'
 
 gem 'sqlite3-ruby', :lib => 'sqlite3'
 
