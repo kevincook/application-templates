@@ -34,7 +34,7 @@ run "mv #{blueprint_dir}/blueprint/*.css public/stylesheets"
 run "rm -rf #{blueprint_dir}"
 
 # Run Ryanb's Nifty Layout generator
-generate("nifty_layout")
+# generate("nifty_layout")
 
 generate :controller, "welcome index"
 route "map.root :controller => 'welcome'"
