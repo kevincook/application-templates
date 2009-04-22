@@ -1,4 +1,4 @@
-plugin 'exception_notifier', :git => 'git://github.com/rails/exception_notification.git'
+plugin 'exception_notifier', :git => 'http://github.com/rails/exception_notification.git'
 plugin 'rspec', :git => 'git://github.com/dchelimsky/rspec.git'
 plugin 'rspec-rails', :git => 'git://github.com/dchelimsky/rspec-rails.git'
 plugin 'paperclip', :git => 'git://github.com/thoughtbot/paperclip.git'
